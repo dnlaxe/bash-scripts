@@ -4,7 +4,7 @@
 cd ~/exercism || exit
 
 # Ask the user for the exercise name (without dashes)
-read -p "Enter the name of the exercise (e.g., 'reverse string'): " exercise_name
+read -p "Enter the name of the exercise: " exercise_name
 
 # Convert spaces to dashes
 formatted_name=$(echo "$exercise_name" | tr '[:upper:]' '[:lower:]' | tr -d "'" | tr ' ' '-')
